@@ -31,7 +31,7 @@ public class lap2_bai1 {
             double x = -b / a;
             System.out.println("Nghiệm của phương trình là: " + x);
         }
-		
+		scanner.close();
 	}
-
+	
 }
