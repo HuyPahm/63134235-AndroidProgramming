@@ -1,6 +1,6 @@
 package lab1;
 
-
+import java.util.Scanner;
 
 public class lab1_bai1 {
 
