@@ -9,5 +9,6 @@ public class lab1_bai3 {
 		double canh = scanner.nextDouble();
 		double V = Math.pow(canh,3);
 		System.out.printf("thể tích: " +V);
+		scanner.close();
 	}
 }
