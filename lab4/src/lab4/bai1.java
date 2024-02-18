@@ -18,8 +18,11 @@ public class bai1 {
 		private double Gia;
 		private double GG;
 		
-	public SanPham(String ten, double Gia, double GG) {
-		this.Ten = ten;
+	public SanPham() {
+			
+		}
+	public SanPham(String Ten, double Gia, double GG) {
+		this.Ten = Ten;
 		this.Gia = Gia;
 		this.GG = GG;
 	}
@@ -32,10 +35,20 @@ public class bai1 {
         System.out.println("Giảm giá: " + GG);
         System.out.println("Thuế nhập khẩu: " + thue());
 	}
+	public void nhap() {
+		 System.out.print("Nhập tên sản phẩm: ");
+	        Ten = scanner.nextLine();
+	        System.out.print("Nhập đơn giá: ");
+	        Gia = scanner.nextDouble();
+	        System.out.print("Nhập giảm giá: ");
+	        GG = scanner.nextDouble();
+	}
 	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
+		SanPham sp = new SanPham();
+        sp.nhap();
+        sp.xuat();
 	}
 
 }
