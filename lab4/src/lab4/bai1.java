@@ -12,8 +12,8 @@ public class bai1 {
 	/**
 	 * @param args
 	 */
-	Scanner scanner = new Scanner(System.in);
-	public class SanPham{
+	
+	public static class SanPham{
 		private String Ten;
 		private double Gia;
 		private double GG;
@@ -36,6 +36,7 @@ public class bai1 {
         System.out.println("Thuế nhập khẩu: " + thue());
 	}
 	public void nhap() {
+		Scanner scanner = new Scanner(System.in);
 		 System.out.print("Nhập tên sản phẩm: ");
 	        Ten = scanner.nextLine();
 	        System.out.print("Nhập đơn giá: ");
@@ -46,9 +47,10 @@ public class bai1 {
 	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-//		SanPham sp = new SanPham();
-//        sp.nhap();
-//        sp.xuat();
+		
+		SanPham sp = new SanPham();
+        sp.nhap();
+        sp.xuat();
 	}
 
 }

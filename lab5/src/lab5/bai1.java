@@ -1,21 +1,19 @@
 /**
  * 
  */
-package lab4;
+package lab5;
 
 /**
  * 
  */
-import java.util.Scanner;
-public class bai2 {
+public class bai1 {
 
 	/**
 	 * @param args
 	 */
-	Scanner scanner = new Scanner(System.in);
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
+
 	}
 
 }
