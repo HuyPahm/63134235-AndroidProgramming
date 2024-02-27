@@ -84,6 +84,12 @@ public class ManHinhTinhToan extends JFrame {
 		contentPane.add(btnNhan);
 		
 		JButton btnChia = new JButton("chia");
+		btnChia.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				//chia
+			HamChia();
+			}
+		});
 		btnChia.setBounds(319, 151, 89, 23);
 		contentPane.add(btnChia);
 		
@@ -130,5 +136,15 @@ public class ManHinhTinhToan extends JFrame {
 		//tính toán
 		double Nhan = soA * soB;
 		txtketqua.setText(String.valueOf(Nhan));
+	}
+	void HamChia() {
+		String str_soA = txtA.getText();
+		String str_soB = txtA.getText();
+		//chuyển kiểu
+		double soA = Double.parseDouble(str_soA);
+		double soB = Double.parseDouble(str_soB); 
+		//tính toán
+		double Chia = soA / soB;
+		txtketqua.setText(String.valueOf(Chia));
 	}
 }	
