@@ -109,7 +109,7 @@ public class ManHinhTinhToan extends JFrame {
 	void HamCong() {
 		//lấy dữ liệu từ điều khiển
 		String str_soA = txtA.getText();
-		String str_soB = txtA.getText();
+		String str_soB = txtB.getText();
 		//chuyển kiểu
 		double soA = Double.parseDouble(str_soA);
 		double soB = Double.parseDouble(str_soB); 
@@ -119,7 +119,7 @@ public class ManHinhTinhToan extends JFrame {
 	}
 	void HamTru() {
 		String str_soA = txtA.getText();
-		String str_soB = txtA.getText();
+		String str_soB = txtB.getText();
 		//chuyển kiểu
 		double soA = Double.parseDouble(str_soA);
 		double soB = Double.parseDouble(str_soB); 
@@ -129,7 +129,7 @@ public class ManHinhTinhToan extends JFrame {
 	}
 	void HamNhan() {
 		String str_soA = txtA.getText();
-		String str_soB = txtA.getText();
+		String str_soB = txtB.getText();
 		//chuyển kiểu
 		double soA = Double.parseDouble(str_soA);
 		double soB = Double.parseDouble(str_soB); 
@@ -139,7 +139,7 @@ public class ManHinhTinhToan extends JFrame {
 	}
 	void HamChia() {
 		String str_soA = txtA.getText();
-		String str_soB = txtA.getText();
+		String str_soB = txtB.getText();
 		//chuyển kiểu
 		double soA = Double.parseDouble(str_soA);
 		double soB = Double.parseDouble(str_soB); 
