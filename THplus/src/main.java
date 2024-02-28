@@ -1,9 +1,8 @@
 
 public class main {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		new plus(). setVisible(true);
-	}
+	public static void main(String[]	args)	{
+		new DemoBorderLayout().setVisible(true);
+		}
 
 }
